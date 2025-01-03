@@ -1,0 +1,14 @@
+# experiment
+task: MNIST
+experiment: PCA
+
+# simulation
+simTime: 0  ## because simulation time is defined by predefined target trajectories
+
+# brain
+brain: MLP
+
+# others
+fixedImages: -1
+testDataSize: -1
+char: -1

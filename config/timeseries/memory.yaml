@@ -1,0 +1,33 @@
+# experiment
+task: memory
+experiment: train
+
+# simulation
+simTime: 30
+timeStep: 0.01
+tau: 20
+
+# brain
+brain: LIL
+
+# body
+shape: DoubleCircles
+size: 4
+nodes: 33
+neighbours: 3
+
+# training
+epoch: 40000
+optim: SGD
+
+# learning rates
+lr_spring: 1000
+lr_damping: 100
+lr_restlength: 1
+lr_readoutlayer: 0
+lr_brain: 0.01
+
+# others
+delay: 2
+inputScale: 20
+cumulative: False

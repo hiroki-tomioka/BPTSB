@@ -1,0 +1,26 @@
+# experiment
+task: Lissajous
+experiment: SWG
+
+# simulation
+simTime: 30000
+
+# brain
+brain: SWG
+
+# training
+optim: SGD
+
+# learning rates
+lr_spring: 1000
+lr_damping: 100
+lr_restlength: 1
+lr_amplitude: 1
+lr_phase: 10
+
+# others
+inputScale: 1
+wind: True
+lissajous2: [2, 1, 1, 4]
+noise: 0
+generatorDist: [all]

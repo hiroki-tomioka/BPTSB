@@ -1,0 +1,14 @@
+# experiment
+task: Lissajous
+experiment: closedloop
+
+# simulation
+simTime: 100
+
+# brain
+brain: FL
+
+# others
+feedbackSprings: [all]
+reservoirStateType: springLength
+noise: 0.08

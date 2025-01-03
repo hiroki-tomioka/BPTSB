@@ -1,0 +1,9 @@
+# experiment
+task: locomotion
+experiment: switching-dynamics
+
+# simulation
+simTime: 50
+
+# brain
+brain: FL

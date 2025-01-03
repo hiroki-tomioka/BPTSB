@@ -1,0 +1,15 @@
+# Ignore compiled python file
+*.pyc
+
+# Ignore results and tmp files
+results/*
+tmp/*
+
+# Ignore edited files
+*.py~
+
+# Ignore vlaams HPC files
+*.vsc
+
+# Ignore filesystem browser files
+.directory
