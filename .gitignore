@@ -1,0 +1,20 @@
+# Ignore compiled python file
+*.pyc
+
+# Ignore results and tmp files
+results/*
+tmp/*
+
+# Ignore datasets
+datasets/*
+# !datasets/MNIST/target_trajectory/
+# !datasets/MNIST/target_trajectory/**
+
+# Ignore edited files
+*.py~
+
+# Ignore vlaams HPC files
+*.vsc
+
+# Ignore filesystem browser files
+.directory

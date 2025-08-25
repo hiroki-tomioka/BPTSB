@@ -1,0 +1,9 @@
+# experiment
+task: locomotion
+experiment: perturbation
+
+# simulation
+simTime: 100
+
+# brain
+brain: FL

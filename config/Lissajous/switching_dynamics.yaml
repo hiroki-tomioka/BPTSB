@@ -1,0 +1,9 @@
+# experiment
+task: Lissajous
+experiment: switching-dynamics
+
+# simulation
+simTime: 50
+
+# brain
+brain: SWG

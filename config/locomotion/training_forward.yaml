@@ -1,0 +1,34 @@
+# experiment
+task: locomotion
+experiment: SWG
+
+# simulation
+simTime: 1000 #10000
+timeStep: 0.01
+tau: 100
+
+# brain
+brain: SWG
+
+# body
+shape: CaterpillarRobot
+size: 4
+nodes: 10
+neighbours: 3
+
+# training
+optim: SGD
+updateTimeScale: 200
+
+# learning rates
+lr_spring: 100
+lr_damping: 1
+lr_restlength: 0.1
+lr_amplitude: 0.001
+lr_phase: 0.01
+
+# others
+inputScale: 0
+wind: False
+noise: 0
+generatorNum: [-1]

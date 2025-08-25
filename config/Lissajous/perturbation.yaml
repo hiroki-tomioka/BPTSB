@@ -1,0 +1,9 @@
+# experiment
+task: Lissajous
+experiment: perturbation
+
+# simulation
+simTime: 300
+
+# brain
+brain: FL

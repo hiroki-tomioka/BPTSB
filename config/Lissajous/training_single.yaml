@@ -1,0 +1,36 @@
+# experiment
+task: Lissajous
+experiment: SWG
+
+# simulation
+simTime: 2000
+timeStep: 0.01
+tau: 10
+
+# brain
+brain: SWG
+
+# body
+shape: DoubleCircles
+size: 4
+nodes: 25
+neighbours: 3
+
+# training
+optim: SGD
+updateTimeScale: 100
+
+# learning rates
+lr_spring: 10000
+lr_damping: 1000
+lr_restlength: 10
+lr_amplitude: 10
+lr_phase: 100
+
+# others
+inputScale: 0
+wind: False
+lissajous1: [1, 2, 0, 1]
+lissajous2: []
+noise: 0
+generatorDist: [all]

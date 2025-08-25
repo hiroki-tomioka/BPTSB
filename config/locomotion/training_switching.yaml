@@ -1,0 +1,25 @@
+# experiment
+task: locomotion
+experiment: SWG
+
+# simulation
+simTime: 10000
+
+# brain
+brain: SWG
+
+# training
+optim: SGD
+
+# learning rates
+lr_spring: 1
+lr_damping: 0.1
+lr_restlength: 0.01
+lr_amplitude: 0.00001
+lr_phase: 0.0001
+
+# others
+inputScale: 1
+wind: True
+noise: 0
+generatorNum: [-1]

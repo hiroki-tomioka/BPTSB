@@ -1,0 +1,35 @@
+# experiment
+task: MNIST
+experiment: train
+
+# simulation
+simTime: 0  ## because simulation time is defined by predefined target trajectories
+timeStep: 0.01
+tau: 10
+
+# brain
+brain: MLP
+
+# body
+shape: DoubleCircles
+size: 4
+nodes: 33
+neighbours: 3
+
+# training
+batchSize: 100
+epoch: 50
+optim: SGD
+
+# learning rates
+lr_spring: 10000
+lr_damping: 1000
+lr_restlength: 1
+lr_brain: 1
+
+# others
+pixel: 28
+fixedImages: -1
+dataSize: -1
+testDataSize: -1
+char: -1
